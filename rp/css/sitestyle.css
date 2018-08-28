@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding:0;
+	margin: 0;
+	background-color: #ecf0f1;
+}
+
+input {
+	height: 19px;
+}
+.container{
+	width: 80%
+	margin:auto;
+	overflow: hidden;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 33;
+}
+.button_1{
+
+	font-family: 'Bree Serif', serif;
+	height: 30px;
+	background-color: #e8491d;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+}
+.mine1{
+	padding-right: 100px:;
+}
+
+/* Custom Styling */
+.container {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:16px;
+	font-weight: bold;
+
+}
+
+header li {
+	float: left;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+/*showcase*/
+#showcase{
+	min-height: 400px;
+	background:url("../images/showcase.jpg")no-repeat ;
+	text-align: center;
+	color: #ffffff;
+}
+#showcase h1
+{
+	margin-top: 20vh;
+	font-size:60px;
+	margin-bottom: 10px;
+
+}
+h1{
+	padding-left: 10px;
+	
+}
+#showcase p{
+	font-size:25;
+}
+/*newsletter*/
+#newsletter{
+	padding:15px;
+	text-align: center;
+	color: #ffffff;
+	background-color:#35424a;
+
+}
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 19px;
+	width: 200px;
+	position: relative;	
+}
+/*boxes*/
+#boxes {
+	background: #35424A;
+	border-top: 3px solid #E8491D;
+	color:#fff;
+}
+
+#boxes .box{
+	float:left;
+	background: #35424A;
+	display: inline-block;
+	text-align: center;
+	text-align: line;
+	width: 30%;
+	padding: 10px;
+}
+
+#list1{
+	margin-right: auto;
+}
+#cu{
+	margin: auto;
+	position: relative;
+	left: 10px;
+}
